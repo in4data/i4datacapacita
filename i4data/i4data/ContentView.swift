@@ -13,7 +13,7 @@ struct ContentView: View {
         BotaoReutilizavel(
             title: "Próximo Passo",
             action: { print("Botão acionado!") },
-            gradientColors: [.blue, .green]
+            gradientColors: [.azulBotão, .verdeBotão]
         )
         .padding()
     }

@@ -21,7 +21,7 @@ struct BotaoReutilizavel: View {
                 .frame(maxWidth: .infinity)
                 .background(
                     LinearGradient(
-                        colors: [.azulBotão, .verdeBotão],
+                        colors: gradientColors,
                         startPoint: .leading,
                         endPoint: .trailing
                     )
