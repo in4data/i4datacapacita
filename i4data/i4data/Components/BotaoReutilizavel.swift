@@ -18,6 +18,7 @@ struct BotaoReutilizavel: View {
                 .font(.headline)
                 .foregroundColor(.white)
                 .padding()
+                .scaledToFit()
                 .frame(maxWidth: .infinity)
                 .background(
                     LinearGradient(
@@ -29,4 +30,7 @@ struct BotaoReutilizavel: View {
                 .cornerRadius(10)
         }
     }
+}
+#Preview {
+    BotaoReutilizavel(title: "teste", action: {print("teste")}, gradientColors: [.blue,.green])
 }
